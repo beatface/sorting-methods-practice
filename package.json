@@ -1,0 +1,27 @@
+{
+  "name": "node-class-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dictionary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true,
+      "browser": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0,
+      "comma-dangle": 0,
+      "no-unused-vars": 1
+    }
+  },
+  "author": "“Emma <“emma.beaton@gmail.com”>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1"
+  }
+}
